@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <!-- TrustBox script -->
+    <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+    <!-- End TrustBox script -->
+    <script src="https://kit.fontawesome.com/de68f974dc.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Luxery Hotel</title>
+   
+  </head>
+  <body>
+<div class="main" style="width: 100%; height: 100%;">
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="">
+            <img src="images/nl.png" alt="flag" id="flag-menu" class="selected-flag-menu">
+        </div>
+        <div>
+        <img src="images/lhc_logo.svg" alt="Luxury Hotel Company" class="logo-menu">
+        </div>
+        <div class="overlay-content" id="overlay-content">
+            <div class="row align-items-center ">
+                <div class="col-12 d-flex justify-content-center"">
+                    <div class="text-overlay">
+                Wilt u meer informatie over de mogelijkheden om meer omzet voor uw hotel te genereren? 
+                Neem dan contact op met Lindsay van der Weele via onderstaande contactbutton, of telefonisch via +31 6 25 223 054.
+                </div>
+
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center mt-5 wrapper-contact-overlay">
+                    <img src="images/linsday_foto.png" class="contact-image-menu" alt="Foto Lindsey">                
+                    <div class="mt-2 wrapper-contact-details-overlay">
+                        <div id="linkedIn-logo-menu">
+                            <img src="images/linkedin_logo.png" alt="linkedIn" class="contact-details-logos-menu"><span class="contact-details-menu" id="contact-name-overlay">Lindsey van der Weele</span>
+                        </div>
+
+                        <div id="phone-icon-menu">
+                            <img src="images/phone-icon.png" alt="Phone Icon" id="contact-details-logos-menu"><span class="contact-details-menu" id="contact-phonenumber-overlay">+31 6 25 223 054</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"> 
+            <div class="col-12">
+                <div class="btn-block px-4 py-2 mt-4 mb-4 text-center rounded-0 contact-btn-overlay">Neem contact op</div>  
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                <div class="trustpilot-widget mt-5" data-locale="nl-NL" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="51968b1800006400053240c1" data-style-height="90px" data-style-width="120px" data-theme="light">
+                    <a href="https://nl.trustpilot.com/review/luxuryhotelcompany.com" target="_blank" rel="noopener">Trustpilot</a>
+                </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="mt-3">
+                        <img src="images/lhc_logo.svg" alt="Luxury Hotel Company" class="logo-menu-bottom">
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="footer-text-overlay mt-2">
+                        Copyright © 2021 LuxuryHotelCompany
+                    </div>
+                </div>
+            </div>
+
+
+                
+        
+        </div>
+      </div>
+
+    <div class="container-fluid">
+        <div class="row menuBar">
+            <div class="col-4 col-md-3">
+                <img src="images/lhc_logo.svg" alt="Luxury Hotel Company" id="logo">
+            </div>
+            <div class="col-md-2 trustpilot">
+                <div class="trustpilot-widget" data-locale="nl-NL" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="51968b1800006400053240c1" data-style-height="90px" data-style-width="120px" data-theme="light">
+                    <a href="https://nl.trustpilot.com/review/luxuryhotelcompany.com" target="_blank" rel="noopener">Trustpilot</a>
+                </div>
+            </div>
+            <div class="col-3 col-md-2 offset-md-1 offset-lg-1 flag">
+                <div class="wrapper-flag">
+
+                    
+                        <div onclick="myFunction(); triangleShow()" class="dropbtn">
+                          
+                            <img src="images/nl.png" alt="flag" id="flag" class="selectedFlag">
+                            <span class="language-name" id="language-name">
+                                Nederlands
+                            </span>
+                        </div>
+                        
+                        <!-- <div class="triangle-up" id="triangle-dropdown-language"></div> -->
+                        <div id="myDropdown" class="dropdown-content arrow-top">
+                          <div onClick="document.getElementById('flag').src='images/nl.png'; document.getElementById('flag-menu').src='images/nl.png'; document.getElementById('language-name').innerHTML = 'Nederlands'">
+                            <img src="images/nl.png" class="country-flag"  alt="flag">
+                            <span class="language-name">
+                                Nederlands
+                            </span>
+                          </div>
+                          <div onClick="document.getElementById('flag').src='images/de.png'; document.getElementById('flag-menu').src='images/de.png'; document.getElementById('language-name').innerHTML = 'Deutsch'">
+                            <img src="images/de.png" class="country-flag"  alt="flag">
+                            <span class="language-name">
+                                Deutsch
+                            </span>
+
+                          </div>
+                          <div onClick="document.getElementById('flag').src='images/uk.png'; document.getElementById('flag-menu').src='images/uk.png'; document.getElementById('language-name').innerHTML = 'English'" >
+                            <img src="images/uk.png" class="country-flag"  alt="flag">
+                            <span class="language-name">
+                                English
+                            </span>
+                          </div>
+                        </div>
+                    <!-- <div class="sl-nav">                       
+                        <ul>
+                          <li>
+                              <div class="wrapper-flag-country" onclick="myFunction()">
+                              <img src="images/nl.png" class="flag" alt="flag" id="flag">
+                                <span class="language-name" id="language-name">
+                                    Nederlands
+                                </span>
+                                </div>
+                            <div id="language-dropdown">
+                            <div class="triangle"></div>
+                            <ul>
+                                <li onClick="document.getElementById('flag').src='images/nl.png'; document.getElementById('language-name').innerHTML = 'Nederlands'">
+                                    <img class="sl-flag flag-nl" src="images/nl.png">
+                                    <div id="germany"></div>
+                                    <span>Nederlands</span>
+                                </li>
+                                <li onClick="document.getElementById('flag').src='images/de.png'; document.getElementById('language-name').innerHTML = 'Deutsch'">
+                                    <img class="sl-flag flag-de" src="images/de.png">
+                                    <div id="germany"></div>
+                                    <span>Deutsch</span>
+                                </li>
+                                <li onClick="document.getElementById('flag').src='images/uk.png'; document.getElementById('language-name').innerHTML = 'English'">
+                                    <img class="sl-flag flag-uk" src="images/uk.png">
+                                    <div id="united-kingdom"></div>
+                                    <span>English</span>
+                                </li>
+                            </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div> -->
+                    
+                
+                </div>
+            </div>          
+            <div class="col-4 lindsey">
+                <div class="wrapper-linkedIn">
+                    <img src="images/linsday_foto.png" class="align-self-center" alt="Foto Lindsey" id="profilePic">                
+                    <div class="wrapper">
+                        <div>
+                            <img src="images/linkedin_logo.png" alt="linkedIn" id="linkedIn-logo"><span class="details">Lindsey van der Weele</span>
+                        </div>
+
+                        <div>
+                            <img src="images/phone-icon.png" alt="Phone Icon" id="phone-icon"><span class="details">+31 6 25 223 054</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-5 col-sm-5 col-md-6 menu-icon">
+                <div id="menu-icon">
+                    <span  onclick="openNav()"><i class="fas fa-bars fa-2x" ></i></span>
+                </div>            
+            </div>
+        </div>
+    </div>    
+    <div class="container-fluid">
+        <div class="row align-items-center" style="position: relative; min-height: 600px;">            
+            <div class="hero"></div>
+            <div class="col-12 col-md-12 col-lg-5 column-headerText">
+                <div class="wrapperHeaderText">
+                    <div class="header-bigText">
+                    #1 overcapaciteit oplossing voor 4 en 5 sterrenhotels
+                    </div>
+                    <div class="header-smallText">
+                    Gemiddeld genomen blijft 40% van de hotelcapaciteit onbenut. 
+                    Een gemiste kans omdat u als eigenaar niet alleen de kameropbrengst, maar ook aditionele inkomsten misloopt. 
+                    Bereken hier eenvoudig wat u kunt verdienen met onze oplossing.
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col-12 col-md-12 col-lg-5 offset-lg-1 pr-4 p-lg-0">
+                <div class="revenue-calculator">
+                    <div class="row">                    
+                        <div class="col-12 revenue-calculator-title">
+                            Extra omzet berekenen
+                        </div>
+                    </div>
+
+                    <form action="">
+                        <div class="row">                
+                            <div class="col-12 col-md-6">
+                                <div class="mb-4 mb-md-4 mb-xl-4 form-group form-group-calculator-left">
+                                    <label for="total_rooms">Totaal aantal kamers</label>                                
+                                    <input type="text" class="form-control" id="total_rooms" name="total_rooms" placeholder="0">
+                                </div>                           
+                                                        
+                                <div class="mb-4 form-group form-group-calculator-left">
+                                    <label for="average_roomprice">Gemiddelde kamerprijs</label>
+                                    <div class="input-group">
+                                        <span class="fa fa-euro form-control-icon"></span>    
+                                        <input type="text" class="form-control icon-start input-calculator-left" id="average_roomprice" name="average_roomprice" placeholder="Enter text">
+                                    </div>                               
+                                </div>
+                                
+                                <div class="mb-4 mt-1 mt-md-3 mt-xl-4 revenue-calculation-output-lg">
+                                    Geschatte verwachte extra omzet
+                                    <div class="revenue-amount-lg">€&nbsp;0</div>
+                                </div>                            
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="mb-4 mb-lg-2 mb-xl-4 form-group form-group-calculator-right">
+                                    <label for="average_overcapicity">Gemiddelde overcapaciteit</label>
+                                    <span class="fa fa-percent form-control-icon icon-percentage"></span>
+                                    <input type="text" class="form-control input-calculator-right" id="average_overcapicity" name="average_overcapicity" placeholder="0">
+                                </div>                                                       
+
+                                <div class="mb-4 form-group form-group-calculator-right">
+                                    <label for="average_additional_expenses">Gemiddelde additionele uitgaven</label>
+                                    <span class="fa fa-euro form-control-icon"></span>
+                                    <input type="text" class="form-control icon-start input-calculator-right" id="average_additional_expenses" name="average_additional_expenses" placeholder="0">
+                                </div>
+
+                                <div class="mt-1 mb-1 mt-md-3 mt-xl-4 revenue-calculation-output-sm">
+                                    Geschatte verwachte extra omzet
+                                    <div class="revenue-amount-sm">€&nbsp;0</div>
+                                </div>
+
+                                <div class="btn rounded-0 mb-4 mt-1 mt-md-3 mt-xl-4 px-4 calculate-revenue-btn">Boost mijn omzet!</div>
+                                <div class="btn-block px-4 py-2 mt-4 mb-4 text-center rounded-0 calculate-revenue-btn-lg">Boost mijn omzet!</div>                           
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div> 
+        </div>      
+        <div class="row marketing-text mt-5">
+            <div class="col-12 col-lg-6 marketing-textblock-left">
+                LuxuryHotelCompany biedt dé oplossing om overcapaciteit op te vullen. Samen met u ontwerpen wij een gepersonaliseerd arrangement die wij vervolgens, via ons platform, aanbieden aan miljoenen bezoekers die op zoek zijn naar een luxe hotelbelevenis. Een type bezoeker die gewend is om juist tijdens hun verblijf meer te spenderen.
+        
+            </div>
+            <div class="col-12 col-lg-6 marketing-textblock-right">
+                Door op maat gemaakte arrangementen aan te bieden op ons platform beperkt u de overcapaciteit en stimuleert u de omzet.
+                <div><hr  class="marketing-text-line" style="border: 1px solid grey;"></div>
+                
+                <div class="row checks align-items-center">
+                    
+                    <div class="col-4 check-left">
+                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="check-icon">
+                            <path d="M3.91869 6.90412L1.17719 4.16262L0 5.33981L3.91869 9.2585L12 1.17719L10.8228 0L3.91869 6.90412Z" fill="#35C890"/>
+                        </svg>
+                        <span class="check-text">Gratis &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> aanmelden</span>
+                    </div>
+
+                    <div class="col-4 check-center">
+                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="check-icon">
+                            <path d="M3.91869 6.90412L1.17719 4.16262L0 5.33981L3.91869 9.2585L12 1.17719L10.8228 0L3.91869 6.90412Z" fill="#35C890"/>
+                        </svg>
+                        <span class="check-text">Tot 40% <br> meer omzet</span>
+                    </div>
+
+                    <div class="col-4 check-right">
+                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="check-icon">
+                            <path d="M3.91869 6.90412L1.17719 4.16262L0 5.33981L3.91869 9.2585L12 1.17719L10.8228 0L3.91869 6.90412Z" fill="#35C890"/>
+                        </svg>
+                        <span class="check-text">Live binnen <br> enkele dagen</span>
+                    </div>                        
+                </div> 
+
+        
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="reviews-header">
+                Hotel partner reviews 
+                </div>
+            </div>
+        </div>
+        <div class="row row-hotel-logos" style="width: 100%; white-space: nowrap; overflow: hidden;"> 
+            <img src="images/huisterduin.png" style="width: 150px; height: 100px; margin-left: -75px; display: inline-block;">
+            <img src="images/huisterduin.png" style="width: 150px; height: 100px; display: inline-block;">
+            <img src="images/huisterduin.png" style="width: 150px; height: 100px; display: inline-block;">
+            
+        </div>
+    </div>
+    <div class="container-fluid">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide carousel-large" data-bs-interval="false" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators carousel-indicators-large">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+        
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner carousel-inner-large">
+                <div class="carousel-item carousel-item-large active">
+                    <div class="d-flex review-card-large">                
+                        <div class="image-hotel-review-div-large">
+                            <img src="images/reviews/review1/1_hotel.png" alt="" class="image-hotel-review-large">
+                        </div>
+                        <div class="image-person-review-div-large">
+                            <img src="images/reviews/review1/1_foto.png" alt="" class="image-person-review-large">
+                        </div>
+                        <div class="text-review-card-div-large">
+                            <div class="header-review-card-large">
+                                <div class="title-review-card-large">
+                                    Koen Stigter
+                                </div>
+                                <div class="logo-hotel-review-card-div-large">
+                                    <img src="images/reviews/review1/1_logo.png" alt="" class="logo-hotel-review-card-large">
+                                </div>
+                            </div>
+                            <div class="mt-1 header-subtitle-review-card-large">
+                                Director of Sales & Events
+                            </div>
+                            <div class="mt-5 text-review-card-large">
+                                “De samenwerking met LHC is gestart tijdens de COVID pandemic, omdat onze focus volledig verplaatste naar de lokale markt en we daarbij een nieuwe partner zochten.
+                                In de afgelopen maanden hebben wij via LHC super mooie resultaten behaald die wij zonder hun zeker niet hadden gehaald.
+                                Daarnaast zijn Lindsey en Donja prettige contact personen, die specifiek per hotel kijken naar wat voor deal past bij het product.
+                                Zeker in deze periode, maar ook nu de markt weer aantrekt zou ik een samenwerking met LHC zeker aanraden.”
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-large">
+                    <div class="d-flex review-card-large">                
+                        <div class="image-hotel-review-div-large">
+                            <img src="images/reviews/review2/2_hotel.png" alt="" class="image-hotel-review-large">
+                        </div>
+                        <div class="image-person-review-div-large">
+                            <img src="images/reviews/review2/2_foto.png" alt="" class="image-person-review-large">
+                        </div>
+                        <div class="text-review-card-div-large">
+                            <div class="header-review-card-large">
+                                <div class="title-review-card-large">
+                                    Rebekka Berger
+                                </div>
+                                <div class="logo-hotel2-review-card-div-large">
+                                    <img src="images/reviews/review2/2_logo.png" alt="" class="logo-hotel-review-card-large">
+                                </div>
+                            </div>
+                            <div class="mt-1 header-subtitle-review-card-large">
+                                Manager Revenue and Business Performance
+                            </div>
+                            <div class="mt-5 text-review-card-large">
+                                "Only a few hours after connecting we received the first bookings which convinced us quickly about their marketing efforts.
+                                The domestic leisure market is an important component of the business mix at Hotel Okura Amsterdam, now probably more than ever and LuxuryHotelCompany has a great user base of travel-loving people. 
+                                This additional leisure business made LuxuryHotelCompany one of our top distribution partners in only a few months. 
+                                I am looking forward to continuing and developing this partnership even further!"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-large">
+                    <div class="d-flex review-card-large">                
+                        <div class="image-hotel-review-div-large">
+                            <img src="images/reviews/review3/3_hotel.png" alt="" class="image-hotel-review-large">
+                        </div>
+                        <div class="image-person-review-div-large">
+                            <img src="images/reviews/review3/3_foto.png" alt="" class="image-person-review-large">
+                        </div>
+                        <div class="text-review-card-div-large">
+                            <div class="header-review-card-large">
+                                <div class="title-review-card-large">
+                                    Jelle Landman
+                                </div>
+                                <div class="logo-hotel3-review-card-div-large">
+                                    <img src="images/reviews/review3/3_logo.png" alt="" class="logo-hotel-review-card-large">
+                                </div>
+                            </div>
+                            <div class="mt-1 header-subtitle-review-card-large">
+                                General Manager
+                            </div>
+                            <div class="mt-5 text-review-card-large">
+                                “Since the last 5 years that we have had Luxury Hotel Company as a partner, we have seen an increase in revenue every year. 
+                                Through this cooperation, among other things, we know how to optimize our RevPar! In addition, their guests contribute to a stable restaurant occupation throughout the year! ”
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev carousel-control-prev-large" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon carousel-control-prev-icon-large"></span>
+            </button>
+            <button class="carousel-control-next carousel-control-next-large" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon carousel-control-next-icon-large"></span>
+            </button>
+        </div>
+
+         <!-- Carousel -->
+        <div id="demo-mobile" class="carousel slide carousel-mobile" data-bs-interval="false" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators carousel-indicators-mobile">
+            <button type="button" data-bs-target="#demo-mobile" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo-mobile" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo-mobile" data-bs-slide-to="2"></button>
+            </div>
+        
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner carousel-inner-mobile">
+                <div class="carousel-item carousel-item-mobile active">
+                    <div class="d-flex review-card-mobile">
+                        <div class="text-review-card-div-mobile">
+                            <div class="header-review-card-mobile">
+                                <div class="title-review-card-mobile">
+                                    Koen Stigter
+                                </div>
+                                <div class="logo-hotel-review-card-div-mobile">
+                                    <img src="images/reviews/review1/1_logo.png" alt="" class="logo-hotel-review-card-mobile">
+                                </div>
+                            </div>
+                            <div class="mt-1 header-subtitle-review-card-mobile">
+                                Director of Sales & Events
+                            </div>
+                            <div class="mt-5 text-review-card-mobile">
+                                “De samenwerking met LHC is gestart tijdens de COVID pandemic, omdat onze focus volledig verplaatste naar de lokale markt en we daarbij een nieuwe partner zochten.
+                                In de afgelopen maanden hebben wij via LHC super mooie resultaten behaald die wij zonder hun zeker niet hadden gehaald.
+                                Daarnaast zijn Lindsey en Donja prettige contact personen, die specifiek per hotel kijken naar wat voor deal past bij het product.
+                                Zeker in deze periode, maar ook nu de markt weer aantrekt zou ik een samenwerking met LHC zeker aanraden.”
+                            </div>
+                        </div>
+                        <div class="image-person-review-div-mobile">
+                            <img src="images/reviews/review1/1_foto.png" alt="" class="image-person-review-mobile">
+                        </div>                
+                        <div class="image-hotel-review-div-mobile">
+                            <img src="images/reviews/review1/1_hotel.png" alt="" class="image-hotel-review-mobile">
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-mobile">
+                    <div class="d-flex review-card-mobile">                
+                        <div class="image-hotel-review-div-mobile">
+                            <img src="images/reviews/review2/2_hotel.png" alt="" class="image-hotel-review-mobile">
+                        </div>
+                        <div class="image-person-review-div-mobile">
+                            <img src="images/reviews/review2/2_foto.png" alt="" class="image-person-review-mobile">
+                        </div>
+                        <div class="text-review-card-div-mobile">
+                            <div class="header-review-card-mobile">
+                                <div class="title-review-card-mobile">
+                                    Rebekka Berger
+                                </div>
+                                <div class="logo-hotel2-review-card-div-mobile">
+                                    <img src="images/reviews/review2/2_logo.png" alt="" class="logo-hotel-review-card-mobile">
+                                </div>
+                            </div>
+                            <div class="mt-1 header-subtitle-review-card-mobile">
+                                Manager Revenue and Business Performance
+                            </div>
+                            <div class="mt-5 text-review-card-mobile">
+                                "Only a few hours after connecting we received the first bookings which convinced us quickly about their marketing efforts.
+                                The domestic leisure market is an important component of the business mix at Hotel Okura Amsterdam, now probably more than ever and LuxuryHotelCompany has a great user base of travel-loving people. 
+                                This additional leisure business made LuxuryHotelCompany one of our top distribution partners in only a few months. 
+                                I am looking forward to continuing and developing this partnership even further!"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-mobile">
+                    <div class="d-flex review-card-mobile">                
+                        <div class="image-hotel-review-div-mobile">
+                            <img src="images/reviews/review3/3_hotel.png" alt="" class="image-hotel-review-mobile">
+                        </div>
+                        <div class="image-person-review-div-mobile">
+                            <img src="images/reviews/review3/3_foto.png" alt="" class="image-person-review-mobile">
+                        </div>
+                        <div class="text-review-card-div-mobile">
+                            <div class="header-review-card-mobile">
+                                <div class="title-review-card-mobile">
+                                    Jelle Landman
+                                </div>
+                                <div class="logo-hotel3-review-card-div-mobile">
+                                    <img src="images/reviews/review3/3_logo.png" alt="" class="logo-hotel-review-card-mobile">
+                                </div>
+                            </div>
+                            <div class="mt-1 header-subtitle-review-card-mobile">
+                                General Manager
+                            </div>
+                            <div class="mt-5 text-review-card-mobile">
+                                “Since the last 5 years that we have had Luxury Hotel Company as a partner, we have seen an increase in revenue every year. 
+                                Through this cooperation, among other things, we know how to optimize our RevPar! In addition, their guests contribute to a stable restaurant occupation throughout the year! ”
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev carousel-control-prev-mobile" type="button" data-bs-target="#demo-mobile" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon carousel-control-prev-icon-mobile"></span>
+            </button>
+            <button class="carousel-control-next carousel-control-next-mobile" type="button" data-bs-target="#demo-mobile" data-bs-slide="next">
+            <span class="carousel-control-next-icon carousel-control-next-icon-mobile"></span>
+            </button>
+        </div>
+    </div>
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="btn px-4 py-2 mt-4 mb-4 text-center rounded-0 revenue-boost-btn">Boost mijn omzet!</div> 
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid screenshot-container">
+        <div class="row screenshot-section-row">
+            <div class="col-12 screenshot-website-column">
+                    <div class="screenshot-website-div d-flex justify-content-center">
+                    <img src="images/screenshot_lhc.png" class="image-screenshot-website">
+                    </div>
+            
+        
+            
+                    <div class="grey-block">
+                        <div class="row grey-block-row">
+                            <div class="col-12 d-flex justify-content-center">
+                                <div class="px-3 check-icon-screenshot">
+                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.91869 6.90412L1.17719 4.16262L0 5.33981L3.91869 9.2585L12 1.17719L10.8228 0L3.91869 6.90412Z" fill="#35C890"/>
+                                    </svg>
+                                    <span>Onboarding in 10 minuten</span>
+                                </div>
+                                <div class="px-3 check-icon-screenshot">
+                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.91869 6.90412L1.17719 4.16262L0 5.33981L3.91869 9.2585L12 1.17719L10.8228 0L3.91869 6.90412Z" fill="#35C890"/>
+                                    </svg>
+                                    <span>Gecertificeerd betaalproces</span>
+                                </div>
+                                <div class=" px-3 check-icon-screenshot">
+                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.91869 6.90412L1.17719 4.16262L0 5.33981L3.91869 9.2585L12 1.17719L10.8228 0L3.91869 6.90412Z" fill="#35C890"/>
+                                    </svg>
+                                    <span>Koppeling met alle channelmanagers</span>
+                                </div>
+                                <div class="check-icon-screenshot-mobile">
+                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.91869 6.90412L1.17719 4.16262L0 5.33981L3.91869 9.2585L12 1.17719L10.8228 0L3.91869 6.90412Z" fill="#35C890"/>
+                                    </svg>
+                                    <span>Veilige uitbetaling</span>
+                                </div>
+                            </div>
+                        
+                            <div class="row mt-5">
+                            <div class="col-12 col-lg-6">
+                                <div class="text-grey-block-left">
+                                    U bepaalt zelf hoeveel overcapaciteit u in welke periode wilt opvullen, wij zorgen voor passende reserveringen. 
+                                    Dat doen we op basis van intelligente data. 
+                                    Wij matchen uw hotel aan de juiste klantprofielen zodat u op uw gekozen momenten, de juiste gasten ontvangt.
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 div-grey-block-right">
+                                <div class="text-grey-block-right">
+                                    Dat zijn de gasten die kwaliteit op waarde weten te schatten en bereid zijn te spenderen aan Food & Beverage.
+                                </div>                                
+                                <div class="btn px-4 py-2 text-center rounded-0 revenue-boost-btn-screenshot">Boost mijn omzet!</div>
+                                
+                                <div class="btn-block px-4 py-2 text-center rounded-0 revenue-boost-btn-screenshot-mobile">Boost mijn omzet!</div>                               
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="header-information-section">
+                            Hoe werkt het?
+                        </div>
+                    </div>
+                  
+
+            </div>
+        </div>
+    </div>
+     </div>
+
+    
+    
+        </div>
+    </div>       
+</div>    
+</div>
+</div>
+
+
+    
+    
+    
+  </body>
+  <script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+       
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+        
+    }
+
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");        
+    }
+
+    function triangleShow(){
+    
+    document.getElementById("triangle-dropdown-language").style.display = "block";
+    
+    }
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+        if (!event.target.matches('.selectedFlag')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+            }
+        }
+        }
+  </script>
+</html>

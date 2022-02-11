@@ -1,0 +1,1215 @@
+html, body {
+  /* margin:0px; */
+  height:100%;
+}
+
+.menuBar {
+  
+    height: 90px;
+    width: 100%;  
+    background-color: grey;     
+}
+
+.container-fluid{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.row{
+  margin: 0px;
+}
+
+.column-headerText{
+  z-index: 0;
+}
+@media only screen and (max-width: 990px) and (min-width: 767px){
+  .revenue-calculator{
+    margin-top: 245px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+
+}
+
+@media only screen and (min-width:990px){
+  .marketing-textblock-left{       
+    padding-left: 10%;
+    padding-right: 2.5%;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .marketing-textblock-right{
+        
+    padding-right: 10%;
+    padding-left: 2.5%;
+    position: relative;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .marketing-text-line{
+    position: absolute;
+    bottom: 15%;
+    width: 75%;
+    border: 1px solid grey;
+    padding-right: 10%;
+  }
+
+  .checks{
+    position: absolute;
+    bottom: 0%;
+    width: 75%;
+    padding-left: 0px;
+    white-space: nowrap;
+  }
+
+  .check-text{
+    font-size: 16px;
+    line-height: 19px;
+    display: inline-block;
+    
+  }
+
+  .check-icon{
+    margin-bottom: 12px;    
+  }
+
+  .carousel-mobile{
+    display: none;
+  }
+
+  .image-hotel-review-div-large{
+    width: 53%;
+    height: 100%;
+    display: inline-block;
+  }
+  
+  .image-hotel-review-large{
+    object-fit: cover;
+   width: 100%;
+   height: 100%;
+  }
+  
+  .image-person-review-div-large{
+    position: absolute;
+    top: 23%;
+    right: 40%;
+    width: 15%;
+    height: 50%;
+  
+  }
+  
+  .image-person-review-large{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+  }
+  
+  .carousel-large{
+    position: relative;
+    height: 500px;
+  }
+  
+  .carousel-inner-large{
+    padding-right: 10%;
+    padding-left: 10%;
+    height: 100%;
+  }
+  .carousel-indicators-large{
+    height: max-content;
+    margin: 0px;
+    width: max-content;
+    position: absolute;
+    top: 0px;
+    left: 60.2%;
+  }
+  .carousel-large .carousel-indicators-large button.active{
+    background-color: grey
+  }
+  
+  .carousel-large .carousel-indicators-large button{
+    width: 50px;
+    height: 5px;
+    
+    border: 1px solid grey;
+    background-color: white;
+  }
+  
+  .carousel-large .carousel-item-large{
+    height: 100%;
+  }
+  
+  .carousel-large .carousel-control-prev-large span{
+    background-color:#E5E5E5;;
+    color: black
+    
+  }
+  
+  .carousel-large .carousel-control-prev-large{
+    position: absolute;
+    top: 50%;
+    width: max-content;
+    height: max-content;
+    align-self: center;
+    margin-left: 30px;
+    
+  }
+  
+  .carousel-large .carousel-control-next-large span{
+    background-color:#E5E5E5;;
+    color: black
+    
+    
+  }
+  .carousel-control-prev-icon-large{
+    color: black
+  }
+  
+  .carousel-large .carousel-control-next-large{
+    position: absolute;
+    top: 50%;
+    width: max-content;
+    height: max-content;
+    align-self: center;
+    margin-right: 30px;
+  }
+  
+  .review-card-large{
+    position: relative;    
+    width: 100%;
+    margin-right: 100px;
+    height: 100%;
+  
+  }
+  
+  .text-review-card-div-large{
+    position: absolute;
+    left: 63%;
+    top: 50px;
+    
+  }
+  
+  .title-review-card-large{
+    
+  font-size: 30px;
+  line-height: 36px; 
+  font-weight: 800;
+  color: #1A1E1E;
+  display: inline-block;
+  }
+  
+  .header-subtitle-review-card-large{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: normal;
+    color: #1A1E1E;
+  }
+  
+  .text-review-card-large{
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+   
+  }
+  
+  .logo-hotel-review-card-div-large{
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    height: 23px;
+    width: 61px;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .logo-hotel-review-card-large{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .logo-hotel2-review-card-div-large{
+    width: 77px;
+    height: 28px;
+    display: inline-block;
+    margin-right: 20px;
+    position: absolute;
+    top: 10px;
+    right: -13px;
+  }
+  
+  .logo-hotel3-review-card-div-large{
+    width: 77px;
+    height: 76px;
+    display: inline-block;
+    margin-right: 20px;
+    position: absolute;
+    top: -4px;
+    right: 0px;
+  }
+
+  .check-icon-screenshot{
+    display: inline-block;
+  }
+
+  .check-icon-screenshot-mobile{
+    display: none;
+  }
+
+  .div-grey-block-right{
+    position: relative;
+  } 
+
+  .revenue-boost-btn-screenshot{
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    background-color: #35C890;
+  }
+
+  .revenue-boost-btn-screenshot-mobile{
+    display: none;
+
+  }
+
+  .header-information-section{
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #1A1E1E;
+  }
+}
+
+
+@media only screen and (max-width: 990px){
+  .wrapperHeaderText{
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .check-text{
+    font-size: 14px;
+    line-height: 17px;
+    display: inline-block;
+    
+  }
+  .check-icon{
+    margin-bottom: 12px;    
+  }
+
+  .image-hotel-review-div-mobile{
+    width: 100%;
+    height: 33%;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  .image-hotel-review-mobile{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-person-review-div-mobile{
+    position: absolute;
+    top: 51%;
+    right: 3%;
+    width: 34%;
+    height: 22%;
+    z-index: 2;
+  
+  }
+  
+  .image-person-review-mobile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+  }
+
+  .carousel-large{
+    display: none;
+  }
+  
+  .carousel-mobile{
+    position: relative;
+    height: 781px;
+    margin-top: 63px;
+  }
+  
+  .carousel-inner-mobile{
+  
+    height: 100%;
+  }
+  .carousel-indicators-mobile{
+    height: max-content;
+    margin: 0px;
+    width: max-content;
+    position: absolute;
+    top: -28px;
+    left: 5.2%;
+  }
+  .carousel-mobile .carousel-indicators-mobile button.active{
+    background-color: grey
+  }
+  
+  .carousel-mobile .carousel-indicators-mobile button{
+    width: 50px;
+    height: 5px;
+    
+    border: 1px solid grey;
+    background-color: white;
+  }
+  
+  .carousel-mobile .carousel-item-mobile{
+    height: 100%;
+  }
+  
+  .carousel-mobile .carousel-control-prev-mobile span{
+    background-color:#E5E5E5;;
+    color: black
+    
+  }
+  
+  .carousel-mobile .carousel-control-prev-mobile{
+    position: absolute;
+    top: -5%;
+    left: 71%;
+    width: max-content;
+    height: max-content;
+    align-self: center;
+    /* margin-left: 30px; */
+    
+  }
+  
+  .carousel-mobile .carousel-control-next-mobile span{
+    background-color:#E5E5E5;;
+    color: black
+    
+    
+  }
+  .carousel-control-prev-icon-mobile{
+    color: black
+  }
+  
+  .carousel-mobile .carousel-control-next-mobile{
+    position: absolute;
+    top: -5%;
+    width: max-content;
+    height: max-content;
+    align-self: center;
+    margin-right: 13px;
+  }
+  
+  .review-card-mobile{
+    position: relative;   
+    width: 100%;   
+    height: 100%;  
+  }
+  
+  .text-review-card-div-mobile{
+    position: absolute;
+    left: 6%;
+    top: 31px;
+    /* padding-right: 30px; */
+  }
+  
+  .title-review-card-mobile{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    display: inline-block;
+    
+    color: #1A1E1E;
+  }
+  
+  .header-subtitle-review-card-mobile{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;    
+    color: #1A1E1E;
+  }
+  
+  .text-review-card-mobile{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    /* or 164% */
+    
+    
+    color: #1A1E1E;
+    width: 100%;
+    padding-right: 20px;
+  }
+  
+  .logo-hotel-review-card-div-mobile{
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    height: 23px;
+    width: 61px;
+    display: inline-block;
+    /* margin-right: 20px; */
+  }
+  
+  .logo-hotel-review-card-mobile{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .logo-hotel2-review-card-div-mobile{
+    width: 77px;
+    height: 30px;
+    display: inline-block;
+    /* margin-right: 20px; */
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  
+  .logo-hotel3-review-card-div-mobile{
+    width: 74px;
+    height: 68px;
+    display: inline-block;
+    
+    position: absolute;
+    top: -3px;
+    right: 20px;
+  }
+
+  .check-icon-screenshot{
+    display: none;
+  }
+
+  .revenue-boost-btn-screenshot{
+    display: none;
+  }
+
+  .revenue-boost-btn-screenshot-mobile{
+    margin-top: 15%;
+    color: white;
+    background-color: #35C890;
+  }
+
+  .header-information-section{
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #1A1E1E;
+  }
+
+  
+} 
+
+@media only screen and (max-width: 1084px) and (min-width: 768px){
+  .wrapperHeaderText{
+    margin-left: 20px;
+    margin-right: 20px ;
+  }
+}
+
+@media only screen and (min-width: 1084px){
+  .header-smallText{
+    margin-top: 20px;    
+    font-size: 24px;
+    font-style: normal;
+    font-weight:100;
+    line-height: 29px;
+    color: white;
+  }
+  .header-bigText{      
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 61px;
+    color: white;
+  }
+  .wrapperHeaderText{
+    margin-left: 100px;
+  }
+
+}
+
+@media only screen and (max-width: 1083px){
+  .header-smallText{
+    margin-top: 20px;    
+    font-size: 18px;
+    font-style: normal;
+    font-weight:100;
+    line-height: 22px;
+    color: white;
+  }
+
+  .header-bigText{      
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49px;
+    color: white;
+  }
+
+  .form-group-calculator-left{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .form-group-calculator-right{
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+ 
+
+}
+
+@media only screen and (min-width: 768px) {
+  .revenue-calculator{
+    height: 75% ;
+    width: 100%;
+  
+  }
+  .revenue-calculator-title{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 50px; 
+   font-style: normal;
+   font-weight: bolder;
+   font-size: 32px;
+   line-height: 39px;
+   color: black;
+ }
+  .input-calculator-right{
+   
+    width: 95%;
+  }
+  .input-calculator-left{
+    width: 95%;
+    
+  }
+  .form-group-calculator-left{
+    margin-left: 25px;
+  }
+  .form-group-calculator-right{
+    margin-right: 25px;
+  }
+  .calculate-revenue-btn{
+    position: absolute;
+    right: 50px;
+    color: white;
+    background-color: #35C890;
+  }
+  .calculate-revenue-btn-lg{
+    display: none;
+    
+  }
+  .revenue-calculation-output-sm{    
+    display: none;  
+  }
+  
+  .revenue-calculation-output-lg{
+    margin-left: 25px;
+  }
+  .revenue-amount-lg{
+    font-size: 30px;    
+    color: #35C890;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .revenue-calculator{
+    height: 70%;
+    margin-top: 18px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  .revenue-calculator-title{
+    margin-bottom: 50px;
+   text-align: center;
+   font-style: normal;
+   font-weight: bolder;
+   font-size: 22px;
+   line-height: 29px;
+   color: black;
+ }  
+  
+  .calculate-revenue-btn{
+    display: none;
+  
+  }
+  .calculate-revenue-btn-lg{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #35C890;
+    color: white;
+  }
+  .revenue-calculation-output-lg{
+    display: none;
+  }
+  .revenue-calculation-output-sm{    
+    margin-left: 25px;
+  }
+  .revenue-amount-sm{
+    font-size: 30px;    
+    color: #35C890;
+  }
+  /*.marketing-text{
+     margin-top: 400px; 
+  }*/
+}
+@media only screen and (min-width:1399px) {
+  /* .wrapper-flag{
+    margin-left: 220px;
+  } */
+  
+}
+
+@media only screen and (min-width: 1024px) {
+  #flag {    
+     height: 20px;
+     width: 20px;    
+  }
+  .country-flag{
+    height: 20px;
+    width: 20px;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  #logo{
+    margin-top: 15px;
+  }
+  .wrapper-flag{
+    width: 106px;
+    margin-top: 30px;
+    margin-left: 110px;
+  }
+  .sl-nav li:hover ul{
+    position: absolute;
+    top:50px;
+    right:-170px;
+
+  }
+  .sl-nav li:hover .triangle {
+    position: absolute;
+    top: 37px;
+    right: -25px;
+  } 
+}
+
+
+@media only screen and (max-width: 1023px) {
+  .wrapper-flag{
+    margin-top: 25px;
+    margin-left: 60px;
+    width: 30px;
+  }
+  .country-flag{
+    height: 20px;
+    width: 20px;
+  }
+  #menu-icon{
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;    
+  }
+  #language-name {
+    display: none;
+  }
+  .lindsey {
+    display: none;
+  }
+  .trustpilot {
+    display: none;
+  }
+  #logo {
+    height: 32.31px;
+    width: 120px;
+    margin-top: 25px;
+    left: 24px;
+    top: 16px;
+  }
+  .logo-menu{
+    position: absolute;
+    height: 32.31px;
+    width: 120px;
+    top: 25px;
+  
+    left: 30px;
+  }
+    
+}
+
+.wrapper-linkedIn{
+   margin-top: 15px;
+   display: inline;
+   float: right;
+}
+
+#profilePic{
+  position: absolute;
+  top: 5px;
+  width: 79px;
+  height: 79px;
+  float: left;  
+}
+
+#linkedIn-logo{
+  height: 20px;
+  width: 20px;
+  margin-left: 10px; 
+}
+
+#phone-icon{
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;  
+} 
+
+.wrapper{
+  margin-left: 80px;  
+}
+
+.details{
+  margin-left: 10px;
+}
+
+.hero{
+  padding: 0px;
+  background-image: url('../images/header_gradient.png');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;  
+  height: 600px;
+  align-items: center;    
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.revenue-calculator{  
+  background-color: white;
+  backdrop-filter: blur(12px);
+}
+
+.marketing-text{
+  padding: 0px;
+}
+
+.form-group .form-control-icon {
+  position: absolute;
+  z-index: 999999;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: black;
+}
+
+.icon-percentage{
+  position: absolute;
+  right: 60px;
+
+}
+
+ .icon-start {
+  padding-left: 2.375rem;
+}
+
+.dropbtn { 
+ 
+  
+  /* padding: 16px; */
+  /* font-size: 16px; */
+  border: none;
+  width: 106px;
+  cursor:inherit;
+  
+  
+}
+
+.selectedFlag{
+  cursor: pointer;
+}
+
+.dropdown {
+  /* position: relative;
+  margin-left:20px; */
+  display: inline-block;
+}
+
+.dropdown-content {
+	margin-top: 20px;
+  padding:5px;  
+  display: none;
+  position: relative;
+  left: -20px;  
+  background-color: white;
+  width: 140px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content.arrow-top {
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.dropdown-content.arrow-top:after {
+  content: " ";
+  position: absolute;
+  right: 30px;
+  top: -15px;
+  border-top: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid black;
+  z-index: 1;
+}
+
+.dropdown-content div {
+  
+  padding:5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content div:hover {background-color: grey;}
+
+.show {display:block;}
+
+.showTriangle{
+  display: block;
+  
+  width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid white;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+#triangle-dropdown-language {
+  display: none;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid white;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  background-color: white;
+  overflow-x: hidden;
+  transition:ease-out 0.5s;
+  
+}
+
+.overlay-content {
+  position: relative;
+  top: 14%;
+  width: 100%;
+  min-height: fit-content;
+  transition: ease-in-out 0.5s; 
+  margin-top: 30px;
+  overflow-x: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -16px;
+  right: 15px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  
+  top: -16px;
+  right: 15px;
+  }
+}
+
+.selected-flag-menu{
+  position: absolute;
+  top: 27px;
+  right: 90px;
+}
+
+.wrapper-contact-details-overlay{
+  float: left;
+  padding-right: 0px;
+  margin-left: 14px;
+  padding-top: 3px;
+  
+}
+
+.contact-image-menu{
+  float: left;
+  margin-bottom: 36px;
+  width: 85px;
+  height: 85px;
+}
+
+#linkedIn-logo-menu{
+  margin-bottom: 10px;
+}
+
+.contact-details-menu{
+  margin-left: 5px;
+}
+
+.contact-details-logos-menu{
+  height: 17px;
+  width: 17px;
+}
+
+#contact-name-overlay{
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#contact-phonenumber-overlay{
+  padding-left: 6px;
+}
+
+.contact-btn-overlay{
+    /* position: absolute;
+  top: 75%; */
+  
+  color: white;
+  background-color: #35C890;;
+}
+
+.logo-menu-bottom{  
+  height: 32.31px;
+  width: 120px;
+  
+}
+
+.footer-text-overlay{
+  padding-bottom: 10px;
+}
+
+.checks .check-left .check-right .check-center{
+  padding-left: 0px;
+}
+
+
+
+.row-hotel-logos{
+  margin-top: 100px;
+}
+
+.reviews-header{
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39px;
+}
+
+.revenue-boost-btn{
+  
+  color: white;
+  background-color: #35C890;
+}
+
+.screenshot-section-row{
+  margin: -12px;
+}
+
+.screenshot-website-div{
+  width: 100%;
+  height: 80%;
+}
+
+.image-screenshot-website{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.grey-block{
+  background-color: #F2F2F2;
+  position: absolute;
+  top: 40%;
+}
+
+.grey-block-row{
+  margin-top: 23%;
+  padding-bottom: 20%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.text-grey-block-left{
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1A1E1E;
+}
+
+.text-grey-block-right{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1A1E1E;
+}
+
+.screenshot-website-column{
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .sl-nav {
+  margin-top: 25px;
+ 
+}
+.sl-nav ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+.sl-nav li {
+  cursor: pointer;
+  padding-bottom:200px;
+  width: 50px;
+  margin-top: 10px;
+}
+.sl-nav li #language-dropdown  {
+  display: none;
+}
+.sl-nav li #language-dropdown  {
+ 
+  display: none;
+  background: #fff;
+  width: 190px;
+  padding-left: 10px;
+  padding-top: 0px;
+  z-index: 1;
+  border-radius:5px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav li .triangle {  
+  z-index:10;
+  height: 14px;
+  overflow:hidden;
+  width: 30px;
+  background: transparent;
+}
+.sl-nav li .triangle:after {
+  content: '';
+  display: block;
+  z-index: 20;
+  width: 15px;
+  transform: rotate(45deg) translateY(0px) translatex(10px);
+  height: 15px;
+  background: #fff;
+  border-radius:2px 0px 0px 0px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav li ul li {
+  position: relative;
+  text-align: left;
+  background: transparent;
+  padding: 8px 15px;  
+  width: 95%;
+  height: fit-content;
+  padding-left: 25px;
+  padding-bottom: 6px;
+  z-index: 2;
+  font-size: 16px;
+  color: #3c3c3c;
+  display: inline-flex;
+}
+
+.sl-nav li ul li:hover {
+background-color: #F2F2F2;
+}
+.sl-nav li ul li:last-of-type {
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+.sl-nav li ul li span {
+  padding-left: 5px;
+  
+}
+
+.sl-flag {
+  display: inline-block;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+  width: 15px;
+  height: 15px;
+  background: #aaa;
+  
+  position: relative;
+  top: 5px;
+  overflow: hidden;
+}
+.flag-de {
+
+  background-size: cover;
+  background-position: center center;
+}
+.flag-usa {
+  background-size: cover;
+  background-position: center center;
+ 
+} */
+
+
+
+  
