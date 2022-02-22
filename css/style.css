@@ -1,5 +1,5 @@
 html, body {
-  /* margin:0px; */
+  margin:0px;
   height:100%;
 }
 
@@ -7,7 +7,7 @@ html, body {
   
     height: 90px;
     width: 100%;  
-    background-color: grey;     
+    
 }
 
 .container-fluid{
@@ -303,16 +303,77 @@ html, body {
   }
 
   .contact-form{
-    height: 300px;
+    position: absolute;
+    top: 7%;
+    left: -15%;
+    height: 687px;
+    width: 115%;
+    background-color: #F2F2F2;    
+    z-index: 9999;
+  }
+
+  .column-footer-contact-form{
+    position: relative;
+    background-color: black 50%;
+  }
+
+  
+
+  .column-footer-contact-form-bottom-div{
+    position: absolute;
+    bottom: 0%;
+    height: 22%;
     width: 100%;
-    background-color: #F2F2F2;
-    margin-top: -8%;
-    z-index: 9999;   
+    background-color: black;
   }
 
-  .background-contact-form{
+  .copyright{
+    margin-top: 37%;
+    background-color: transparent;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;    
+    display: flex;
+    align-items: center;
 
   }
+
+  .column-inside-contact-form{
+    padding-left: 13%;
+    padding-right: 17%;
+  
+  }
+
+  .contact-form-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: #1A1E1E;
+    margin-top: 10%;
+
+  }
+
+  .contact-form-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A1E1E;
+  }
+
+  .submit-btn-contact-form{
+    color: white;
+    background-color: #35C890;
+    float: right;
+    
+  }
+
+
+
 }
 
 
@@ -567,6 +628,10 @@ html, body {
     background-color: #000000;
   }
 
+  .column-footer-contact-form{
+    
+  }
+
   
 } 
 
@@ -634,8 +699,8 @@ html, body {
   
   }
   .revenue-calculator-title{
-    margin-top: 30px;
-    margin-left: 25px;
+    padding-left: 5%;
+    margin-top: 30px;    
     margin-bottom: 50px; 
    font-style: normal;
    font-weight: bolder;
@@ -1279,6 +1344,20 @@ html, body {
   padding-left: 7%;
   padding-right: 7%;
 }
+
+.footer-row{
+  margin-top: 10%;
+}
+
+.screenshot-container{
+  margin-top: 8%;
+}
+
+.hotel-partner-review-row{
+  margin-top: 8%;
+}
+
+
 
 
 

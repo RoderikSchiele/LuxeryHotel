@@ -304,32 +304,39 @@
         
             </div>
         </div>
-        <div class="row">
+        <div class="row hotel-partner-review-row">
             <div class="col-12 d-flex justify-content-center">
                 <div class="reviews-header">
                 Hotel partner reviews 
                 </div>
             </div>
         </div>
-        <div class="row row-hotel-logos" style="width: 100%; white-space: nowrap; overflow: hidden;"> 
-            <img src="images/huisterduin.png" style="width: 150px; height: 100px; margin-left: -75px; display: inline-block;">
-            <img src="images/huisterduin.png" style="width: 150px; height: 100px; display: inline-block;">
-            <img src="images/huisterduin.png" style="width: 150px; height: 100px; display: inline-block;">
+        <div class="row flex-nowrap align-items-center row-hotel-logos" style="width: 100%; white-space: nowrap; overflow: hidden;">
+            <div class="col-12"> 
+            <img src="images/marriott.png" style="width: 136px; height: 70px; margin-left: -100px; display: inline-block; margin-right: 80px;">
+            <img src="images/bilderbeg.png" style="width: 183px; height: 70px; display: inline-block; margin-right: 80px;">
+            <img src="images/dk.png" style="width: 128px; height: 101px; display: inline-block; margin-right: 80px;">
+            <img src="images/crowneplaza.png" style="width: 199px; height: 76px; display: inline-block; margin-right: 80px;">
+            <img src="images/hampshire.png" style="width: 184px; height: 133px; display: inline-block; margin-right: 80px;">
+            <img src="images/huisterduin.png" style="width: 163px; height: 163px; display: inline-block; margin-right: 80px;">
+            <img src="images/doubletree.png" style="width: 169px; height: 111px; display: inline-block;">
+            <img src="images/kurhaus.png" style="width: 133px; height: 133px; display: inline-block;">
+            </div>
             
         </div>
     </div>
-    <div class="container-fluid">
-        <!-- Carousel -->
-        <div id="demo" class="carousel slide carousel-large" data-bs-interval="false" data-bs-ride="carousel">
+    <div class="container-fluid mt-5">
+        
+        <div id="demo" class="carousel slide carousel-large mt-5" data-bs-interval="false" data-bs-ride="carousel">
 
-            <!-- Indicators/dots -->
+          
             <div class="carousel-indicators carousel-indicators-large">
             <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
             <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
             </div>
         
-            <!-- The slideshow/carousel -->
+          
             <div class="carousel-inner carousel-inner-large">
                 <div class="carousel-item carousel-item-large active">
                     <div class="d-flex review-card-large">                
@@ -418,7 +425,7 @@
                 </div>
             </div>
         
-            <!-- Left and right controls/icons -->
+            
             <button class="carousel-control-prev carousel-control-prev-large" type="button" data-bs-target="#demo" data-bs-slide="prev">
             <span class="carousel-control-prev-icon carousel-control-prev-icon-large"></span>
             </button>
@@ -427,17 +434,16 @@
             </button>
         </div>
 
-         <!-- Carousel -->
+        
         <div id="demo-mobile" class="carousel slide carousel-mobile" data-bs-interval="false" data-bs-ride="carousel">
 
-            <!-- Indicators/dots -->
             <div class="carousel-indicators carousel-indicators-mobile">
             <button type="button" data-bs-target="#demo-mobile" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#demo-mobile" data-bs-slide-to="1"></button>
             <button type="button" data-bs-target="#demo-mobile" data-bs-slide-to="2"></button>
             </div>
         
-            <!-- The slideshow/carousel -->
+            
             <div class="carousel-inner carousel-inner-mobile">
                 <div class="carousel-item carousel-item-mobile active">
                     <div class="d-flex review-card-mobile">
@@ -528,7 +534,7 @@
                 </div>
             </div>
         
-            <!-- Left and right controls/icons -->
+            
             <button class="carousel-control-prev carousel-control-prev-mobile" type="button" data-bs-target="#demo-mobile" data-bs-slide="prev">
             <span class="carousel-control-prev-icon carousel-control-prev-icon-mobile"></span>
             </button>
@@ -664,13 +670,13 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row mb-5">
         <div class="col-12 d-flex justify-content-center">
             <div class="btn px-4 py-2 text-center rounded-0 revenue-boost-btn-information-slider mt-4">Boost mijn omzet!</div>           
         </div>
     </div>
 
-    <div class="row">
+    <div class="row footer-row">
         <div class="col-12 col-lg-6 px-0">
             <div class="contact-section-image-div">
                 <img src="images/footer.png" class="footer-image">
@@ -679,12 +685,58 @@
             </div>
 
         </div>
-        <div class="col-12 col-lg-6 d-flex justify-content-center" style="background-color: black; padding: 0%;">
+        <div class="col-12 col-lg-6 d-flex justify-content-center column-footer-contact-form">
             
-                <div class="contact-form">
+            
+            <div class="contact-form">
+                <div class="col-12 column-inside-contact-form">
+                    <div class="contact-form-title">
+                        Vergroot direct je omzet!
+                    </div>
+                    <div class="contact-form-text mt-4">
+                        Laat uw gegevens achter en we nemen op werkdagen binnen 24 uur contact met u op! 
+                        Of neem zelf direct contact op met Lindsay van der Weele (tel nr: +31 6 25 223 054)
+                    </div>
+                    <form submit="">
+                        <div class="row">
+                    <div class="col-lg-6">
+                        <label for="first-name" class="form-label mt-5">Voornaam</label>
+                        <input type="text" class="form-control" id="input-first-name" name="first_name" placeholder="Voornaam">
 
+                        <label for="first-name" class="form-label mt-4">Email</label>
+                        <input type="email" class="form-control" id="input-email" name="email"  placeholder="Email">
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="last-name" class="form-label mt-5">Achternaam</label>
+                        <input type="text" class="form-control" id="input-last-name" name="last_name"  placeholder="Achternaam">
+
+                        <label for="phonenumber" class="form-label mt-4">Telefoonnummer</label>
+                        <input type="number" class="form-control" id="input-phonenumber" name="phonenumber"  placeholder="Telefoonnummer">
+
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">                            
+                            <textarea class="form-control mt-4" id="message-contact-form" rows="5" placeholder="Bericht"></textarea>
+                            <button class="px-4 py-2 text-center rounded-0 submit-btn-contact-form mt-4" type="submit">Starten maar!</button>
+                        </div>
+                    </div>
+
+                    </form>
                 </div>
-           
+            </div>
+            
+            <div class="column-footer-contact-form-bottom-div d-flex justify-content-center">
+                <div class="footer-wrapper">
+                    <div class="copyright">
+                        Copyright © 2021 LuxuryHotelCompany
+                    </div>
+                    <div class="logo-footer-div">
+                        <img src="images/lhc_logo.svg" alt="Luxury Hotel Company" class="logo-footer-image">
+                    </div>
+                </div>
+
+            </div>
 
 
         </div>
